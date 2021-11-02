@@ -115,14 +115,14 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("➕ Add Me To Group ➕", url=invite_link.invite_link)
+                InlineKeyboardButton("➕ Add Me To Your Groups ➕", url='')
                 ],[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''), 
-                InlineKeyboardButton("Updates Channel", url='https://t.me/M2LINKS') 
+                InlineKeyboardButton("Search 🔍", switch_inline_query_current_chat=''), 
+                InlineKeyboardButton("Update 🎭", url='https://t.me/M2LINKS') 
 
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("Help ℹ", callback_data="help"),
+                InlineKeyboardButton("About 🙄", callback_data="about")
                 ]]
             )
         )
