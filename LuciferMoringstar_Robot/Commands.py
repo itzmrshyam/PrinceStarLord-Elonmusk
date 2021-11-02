@@ -115,7 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("➕ Add Me To Your Groups ➕", url='')
+                InlineKeyboardButton("➕ Add Me To Your Groups ➕", url='http://t.me/The_Moviez_Bot?startgroup=true')
                 ],[
                 InlineKeyboardButton("Search 🔍", switch_inline_query_current_chat=''), 
                 InlineKeyboardButton("Update 🎭", url='https://t.me/M2LINKS') 
