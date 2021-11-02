@@ -39,10 +39,10 @@ default_start_msg = """
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 """
-START_MSG = """<b>Hello {} 😁 </b>
-<b>I'm a Movies Bot Of <a href='https://t.me/M2LINKS'>M2LINKS</a>,</b>
-<b>I Can Provide You Movies,</b>
-<b>Just Add Me To Your Group & Enjoy 😍</b>"""
+START_MSG = """Hello {first} 😁 
+I'm a Movies Bot Of @M2LINKS ™
+I Can Provide You Movies
+Just Add Me To Your Group & Enjoy 😍"""
 
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
