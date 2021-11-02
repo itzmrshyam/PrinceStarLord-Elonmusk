@@ -28,14 +28,9 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
-
-➥ Language : Python3
-
-➥ Library : Pyrogram Asyncio 1.13.0
-
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+<b>➥ Name : Filter Bot</b>
+<b>➥ Creator : <a href='https://t.me/Prince_Star_Lord'>Star_Lord</a></b>
+<b>➥ Developers : <a href='https://t.me/M2LINKS'>M2LINKS</a></b>
+<b>➥ Sorce Code : <a href='https://t.me/M2LINKS'>Click Here</a></b>
 """
+
