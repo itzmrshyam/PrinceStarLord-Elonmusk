@@ -39,7 +39,7 @@ default_start_msg = """
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 """
-START_TXT = """<b>Hello {} 😁 </b>
+START_MSG = """<b>Hello {} 😁 </b>
 <b>I'm a Movies Bot Of <a href='https://t.me/M2LINKS'>M2LINKS</a>,</b>
 <b>I Can Provide You Movies,</b>
 <b>Just Add Me To Your Group & Enjoy 😍</b>"""
