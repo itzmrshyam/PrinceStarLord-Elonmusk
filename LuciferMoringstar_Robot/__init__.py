@@ -11,19 +11,11 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
 
-/start :- check am Alive
 
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+/start :- check am Alive 👀
+
+
 
 """
 
@@ -31,6 +23,6 @@ ABOUT = """
 <b>➥ Name : Filter Bot</b>
 <b>➥ Creator : <a href='https://t.me/Prince_Star_Lord'>ֆȶǟʀ ʟօʀɖ</a></b>
 <b>➥ Developers : <a href='https://t.me/M2LINKS'>M2LINKS</a></b>
-<b>➥ Sorce Code : <a href='https://t.me/M2LINKS'>Click Here</a></b>
+
 """
 
