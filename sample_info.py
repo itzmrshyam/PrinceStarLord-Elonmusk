@@ -17,8 +17,8 @@ AUTH_USERS = []
 AUTH_CHANNEL = None
 
 # MongoDB information
-DATABASE_URI = "mongodb://[LuciferMoringstar_Robot:LuciferMoringstar_Robot@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'LuciferMoringstar_Robot'
+DATABASE_URI = "mongodb://[M2links:M2links@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
+DATABASE_NAME = 'M2links'
 COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
 
 # Messages
@@ -29,4 +29,4 @@ Here you can search files in inline mode. Just press follwing buttons and start 
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = 'Please join @.... to use this bot'
+INVITE_MSG = 'Please join @M2links to use this bot'
