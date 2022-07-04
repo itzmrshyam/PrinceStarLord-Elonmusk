@@ -83,10 +83,14 @@ async def start(bot, message):
                 if f_caption is None:
                     f_caption = f"{files.file_name}"
                 buttons = [
-                    [
-                        InlineKeyboardButton('🎭 Updates Channel 🎭', url=f'{TUTORIAL}')
-                    ]
-                    ]
+              [
+                InlineKeyboardButton("🔍 sᴇᴀʀᴄʜ ", switch_inline_query_current_chat='')
+               
+                InlineKeyboardButton('🎭 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/M2LINKS')
+              ] 
+
+                ]
+                    
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=file_id,
@@ -121,7 +125,7 @@ async def start(bot, message):
                 InlineKeyboardButton("Update 🎭", url='https://t.me/M2LINKS') 
 
                 ],[
-                InlineKeyboardButton("Help ℹ", callback_data="help"),
+                InlineKeyboardButton("Owner ❤️", url='https://t.me/Prince_Star_Lord'),
                 InlineKeyboardButton("About 🙄", callback_data="about")
                 ]]
             )
@@ -202,7 +206,7 @@ async def ban(c, m):
         try:
             await c.send_message(
                 user_id,
-                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Message from the admin 🤠**",
+                f"You are Banned 🚫 to use this bot for **{ban_duration}** day(s) for the reason __{ban_reason}__ \n\n**Contact Us @M2LinksSupport 🤠**",
             )
             ban_log_text += "\n\nUser notified successfully!"
         except BaseException:
