@@ -86,7 +86,7 @@ async def start(bot, message):
               [
                 InlineKeyboardButton("🔍 sᴇᴀʀᴄʜ ", switch_inline_query_current_chat='')
                
-                InlineKeyboardButton('🎭 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/M2LINKS')
+                InlineKeyboardButton('🎭 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+0BvEgDmKKT84ZmFl')
               ] 
 
                 ]
@@ -119,13 +119,13 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("➕ Add Me To Your Groups ➕", url='http://t.me/The_Moviez_Bot?startgroup=true')
+                InlineKeyboardButton("➕ Add Me To Your Groups ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                 InlineKeyboardButton("Search 🔍", switch_inline_query_current_chat=''), 
-                InlineKeyboardButton("Update 🎭", url='https://t.me/M2LINKS') 
+                InlineKeyboardButton("Update 🎭", url='https://t.me/+0BvEgDmKKT84ZmFl') 
 
                 ],[
-                InlineKeyboardButton("Owner ❤️", url='https://t.me/Prince_Star_Lord'),
+                InlineKeyboardButton("Owner ❤️", url='https://t.me/itz_mrshyam'),
                 InlineKeyboardButton("About 🙄", callback_data="about")
                 ]]
             )
